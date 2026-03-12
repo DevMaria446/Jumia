@@ -50,9 +50,13 @@ color:white;
 background-color: #f68b1e; 
 cursor: pointer;
 text-align: center;
+border:none
 }
 .search1:hover{
     background-color:  #db7816;;
+}
+.search1::placeholder {
+  color: white
 }
 
 /* .up3-right{

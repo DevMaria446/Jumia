@@ -1,0 +1,41 @@
+.main-container{
+       position: relative; 
+    display: inline-block; 
+    width: 100%
+}
+
+
+/* .main-container img {
+    width: 100%; 
+    height: 100%;
+    display: block;
+} */
+
+
+.mama, .mam {
+    position: absolute; 
+    transform: translateY(-50%); 
+    padding: 10px 15px;
+    background-color: #555;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+.mama {
+    left: 10px; 
+}
+
+.mam {
+    right: 10px; 
+}
+
+.mama, .mam {
+    background-color: gray;
+}
+.ba{
+ display: block;
+ width: 100%;
+ height: 200%
+}
+

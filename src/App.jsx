@@ -1,6 +1,7 @@
 import { useState } from 'react'
 import Up from './Component/Up/Up'
 import Second from './Component/Second/Second'
+import Body from './Component/Body/Body'
 
 import './App.css'
 
@@ -11,6 +12,7 @@ function App() {
     <>
     <Up/>
     <Second/>
+    <Body/>
     </>
   )
 }
